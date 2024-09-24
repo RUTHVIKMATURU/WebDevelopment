@@ -1,0 +1,29 @@
+.Product {
+  width: 140px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+.Product:hover{
+  cursor: pointer;
+  background-color: #31cfeb;
+}
+.Product img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.Product button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Product button:hover {
+  background-color: #062e59;
+}

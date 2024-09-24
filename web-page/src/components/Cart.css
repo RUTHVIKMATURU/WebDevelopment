@@ -1,0 +1,17 @@
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  max-width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  background-color: rgb(232, 232, 232);
+}
+.cart-item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
