@@ -6,17 +6,13 @@ function PriceDetails({ cartItems }) {
   const couponDiscount = 50;
   const platformFee = 10;
   const shippingCharges = 20;
-
-  // Calculate total price whenever cartItems changes
   useEffect(() => {
     let newTotal = 0;
     cartItems.forEach((item) => {
       newTotal += item.price * item.quantity;
     });
     setTotal(newTotal);
-  }, [cartItems]); // Recalculates when cartItems changes
-
-  // Calculate the total amount after applying coupon and other fees
+  }, [cartItems]);
   const totalAmount = total > 0 ? total - couponDiscount + platformFee + shippingCharges : 0;
 
   return (
