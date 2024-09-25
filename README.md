@@ -1,7 +1,62 @@
-﻿# WebDevelopment
-HOME PAGE 
-PRODUCTS ARE SHOWN BASED ON CATEGORIES
-AT LAST TO PRODUCTS WHICH ARE ADDED TO CART ARE SHOWN IN THE CART SECTION AND TOTAL PRICE OF ALL PRODUCTS IN CART IS PRESENT AT LAST IN THE WEBPAGE 
-HOW TO PLACE ORDER -
-CLICK ON ADD TO CART BUTTON 
-IF YOU WANT TO INCREASE THE QUANTITY YOU CAN DIRECTLY CLICK AS MANY NUMBER OF TIMES ON ADD TO CART BUTTON OR YOU CAN ALSO ADD BY CLICKING ON ADD BUTTON IN CART ITEMS 
+﻿Web Development Project
+
+This repository contains a modern web development project showcasing key concepts like responsive design, API integration, and interactive UI elements.
+
+Features
+
+Responsive design for various devices
+
+Dynamic data rendering via API calls
+
+Interactive user interfaces
+
+
+Technologies & Frameworks
+
+HTML5/CSS3: For structuring and styling the web pages
+
+JavaScript (ES6+): For dynamic, interactive elements
+
+React.js: Frontend framework for component-based UI
+
+Node.js & Express: Backend server and API handling
+
+MongoDB: NoSQL database for data storage
+
+
+Installation
+
+Prerequisites:
+
+Node.js installed on your machine.
+
+
+Steps:
+
+1. Clone the repository:
+
+git clone https://github.com/RUTHVIKMATURU/WebDevelopment.git
+
+
+2. Navigate to the project directory:
+
+cd WebDevelopment
+
+
+3. Install dependencies:
+
+npm install
+
+
+
+Running the Application
+
+1. Start the development server:
+
+npm start
+
+
+2. Open your browser and go to:
+
+http://localhost:3000
+
