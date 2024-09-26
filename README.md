@@ -21,7 +21,6 @@ React.js: Frontend framework for component-based UI
 
 Node.js & Express: Backend server and API handling
 
-MongoDB: NoSQL database for data storage
 
 
 Installation
